@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		2EDC632D259959CF00940941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC632C259959CF00940941 /* AppDelegate.swift */; };
 		2EDC632F259959CF00940941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC632E259959CF00940941 /* SceneDelegate.swift */; };
-		2EDC6331259959CF00940941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC6330259959CF00940941 /* ViewController.swift */; };
 		2EDC6334259959CF00940941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC6332259959CF00940941 /* Main.storyboard */; };
 		2EDC6336259959D200940941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC6335259959D200940941 /* Assets.xcassets */; };
 		2EDC6339259959D200940941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC6337259959D200940941 /* LaunchScreen.storyboard */; };
 		2EDC6344259959D200940941 /* LGBTQNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC6343259959D200940941 /* LGBTQNewsTests.swift */; };
 		2EDC634F259959D300940941 /* LGBTQNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC634E259959D300940941 /* LGBTQNewsUITests.swift */; };
+		2EDC63682599797B00940941 /* LGBTQNewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC63672599797B00940941 /* LGBTQNewsList.swift */; };
+		2EDC63832599859C00940941 /* LGBTQNewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC63812599859C00940941 /* LGBTQNewsListCell.swift */; };
+		2EDC63842599859C00940941 /* LGBTQNewsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC63822599859C00940941 /* LGBTQNewsListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		2EDC6329259959CF00940941 /* LGBTQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBTQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDC632C259959CF00940941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EDC632E259959CF00940941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EDC6330259959CF00940941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EDC6333259959CF00940941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EDC6335259959D200940941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EDC6338259959D200940941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		2EDC634A259959D300940941 /* LGBTQNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBTQNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDC634E259959D300940941 /* LGBTQNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQNewsUITests.swift; sourceTree = "<group>"; };
 		2EDC6350259959D300940941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDC63672599797B00940941 /* LGBTQNewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQNewsList.swift; sourceTree = "<group>"; };
+		2EDC63812599859C00940941 /* LGBTQNewsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQNewsListCell.swift; sourceTree = "<group>"; };
+		2EDC63822599859C00940941 /* LGBTQNewsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGBTQNewsListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				2EDC632C259959CF00940941 /* AppDelegate.swift */,
 				2EDC632E259959CF00940941 /* SceneDelegate.swift */,
-				2EDC6330259959CF00940941 /* ViewController.swift */,
+				2EDC63672599797B00940941 /* LGBTQNewsList.swift */,
+				2EDC63812599859C00940941 /* LGBTQNewsListCell.swift */,
+				2EDC63822599859C00940941 /* LGBTQNewsListCell.xib */,
 				2EDC6332259959CF00940941 /* Main.storyboard */,
 				2EDC6335259959D200940941 /* Assets.xcassets */,
 				2EDC6337259959D200940941 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EDC6339259959D200940941 /* LaunchScreen.storyboard in Resources */,
+				2EDC63842599859C00940941 /* LGBTQNewsListCell.xib in Resources */,
 				2EDC6336259959D200940941 /* Assets.xcassets in Resources */,
 				2EDC6334259959CF00940941 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EDC6331259959CF00940941 /* ViewController.swift in Sources */,
 				2EDC632D259959CF00940941 /* AppDelegate.swift in Sources */,
+				2EDC63832599859C00940941 /* LGBTQNewsListCell.swift in Sources */,
+				2EDC63682599797B00940941 /* LGBTQNewsList.swift in Sources */,
 				2EDC632F259959CF00940941 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
